@@ -1,5 +1,5 @@
 # pixabay-py
-A simple Python 3 Wrapper Around The PixaBay Api.
+###### A simple Python 3 Wrapper Around The PixaBay Api.
 
 The [Pixabay API](https://pixabay.com/api) is a free api that allows developers free access to pixabay's database of free stock images.
 The API itself is pretty easy to use, however there are _quite_ a lot of parameters that need filling in and it may be quite tiresome and frankly time-consuming sometimes to have to fill everything in over and over again.
@@ -15,7 +15,7 @@ Do give it a try and hopefully contribute to the project, pull requests are welc
 from pyxabay.pixabay import PixaBay
 import os
 
-key = 'YOUR_API_KEY'\#Get one for free here: https://pixabay.com/api
+key = 'YOUR_API_KEY'#Get one for free here: https://pixabay.com/api
 
 bay = PixaBay(key=key)
 imgs = bay.get_images(search='cats and dogs')
